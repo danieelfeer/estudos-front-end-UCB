@@ -59,6 +59,16 @@ section{
     box-shadow:  3px 3px 10px 1px rgba(0, 0, 0, 0.438);
 }
 
+
+#img-2{
+    
+    background-image: url("https://cdn.pixabay.com/photo/2021/08/04/13/06/software-developer-6521720_640.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
 article{
     display: flex;
     flex-direction: column;
