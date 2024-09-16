@@ -95,6 +95,30 @@ h3{
     width: 3.5rem;
 }
 
+.form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+
+}
+
+button{
+    margin-top: 1rem;
+    padding: 0.7rem;
+    background-color: #00000022;
+    color: #8200d8;
+    border-radius: 2rem;
+    border: 1px solid rgba(255, 255, 255, 0.47);
+    font-weight: bold;
+}
+
 
 
 
