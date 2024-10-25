@@ -1,0 +1,14 @@
+{
+  "name": "atividade_framework_express",
+  "version": "1.0.0",
+  "description": "atividade 03 - framework express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "danieelfeer",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
