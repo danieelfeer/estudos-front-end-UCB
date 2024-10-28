@@ -21,19 +21,46 @@
     </header>
     <main>
         <section>
-            <h2>Contato</h2>
-            <form action="/resultado" method="post">
-                <label for="nome">Nome:</label>
-                <input type="text" id="nome" name="nome" required>
-        
-                <label for="email">E-mail:</label>
-                <input type="email" id="email" name="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Digite um e-mail válido.">
-        
-                <label for="mensagem">Mensagem:</label>
-                <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
-        
-                <button type="submit">Enviar</button>
-            </form>
+            <div class="container">
+                <div class="text">
+                    Formulário de Contato
+                </div>
+                <form action="/resultado" method="post">
+                    <div class="form-row">
+                        <div class="input-data">
+                            <input type="text" id="primeiro-nome" name="primeiro-nome" required>
+                            <div class="underline"></div>
+                            <label for="primeiro-nome">Primeiro Nome</label>
+                        </div>
+                        <div class="input-data">
+                            <input type="text" id="sobrenome" name="sobrenome" required>
+                            <div class="underline"></div>
+                            <label for="sobrenome">Sobrenome</label>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="input-data">
+                            <input type="email" id="email" name="email" required>
+                            <div class="underline"></div>
+                            <label for="email">Endereço de E-mail</label>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="input-data textarea">
+                            <textarea id="mensagem" name="mensagem" rows="8" required></textarea>
+                            <div class="underline"></div>
+                            <label for="mensagem">Escreva sua mensagem</label>
+                        </div>
+                    </div>
+                    <div class="form-row submit-btn">
+                        <div class="input-data">
+                            <div class="inner"></div>
+                            <input type="submit" value="Enviar">
+                        </div>
+                    </div>
+                </form>
+            </div>
+            
         </section>
     </main>
     <footer></footer>
